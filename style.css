@@ -28,7 +28,7 @@ font-family: 'Manrope', sans-serif;
 
 nav
 {
-    background-color: #000075;
+    background-color: #00005e;
     text-align: center;     
     font-family: 'Montserrat', sans-serif;
 }
@@ -70,14 +70,15 @@ a.logolink
     color: #303030;
 }
 
-.naglowek
+
+
+.slogan
 {
     font-size: 40px;
-    font-family:'Roboto', sans-serif;
-    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
     text-align: center
 }
-
 #stopka
 {
     font-size: 20px;
