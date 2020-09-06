@@ -17,7 +17,7 @@
       
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
       
-        <link rel="stylesheet" href="style.css" type="text/css" />
+        <link rel="stylesheet" href="/css/style.css" type="text/css" />
       
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700i&amp;subset=latin-ext" rel="stylesheet">
       
@@ -25,45 +25,67 @@
       
         <script src="https://kit.fontawesome.com/ba063671af.js" crossorigin="anonymous"></script>
       
+     
+      
   </head>
     <body>
         
         
-        <div class="headermenu">
-            
-        <div class="logo">
-            
+        <div class="headermenu">    
+        <div class="logo">    
+        
         <a><img src="ptw.png" alt="ptwlogo" width="110px" height="110"/></a>
         
-        
+        </div>
+        <!-- hamburger-menu !-->
+        <button class="hamburger">
+  <span class="hamburger__box">
+    <span class="hamburger__inner"></span>
+  </span>
+</button>
+<div class="navigation">
+  <ul class="navigation__list">
+      <li class="navigation__item"><a href="index.html">Strona Główna</a> </li>
+    <li class="navigation__item"><a href="onas.html">O nas</a></li>
+    <li class="navigation__item"><a href="kontakt.html">Kontakt</a></li>
+ </ul>
+</div>
+                
+                
+                
+                </ul>
+            
             </div>
             
-            <div class="navigation">
-       <a href="index.html"> <i href="index.html" class="fas fa-home"></i> </a>
-       <a href="kontakt.html"> <i class="fas fa-address-book"></i> </a>
-       <a href="onas.html"> <i class="fas fa-id-card"></i> </a>
-        </div>
+            <script type="text/javascript">
+            const hamburger = document.querySelector('.hamburger');
+const nav = document.querySelector('.navigation');
+
+const handleClick = () => {
+  hamburger.classList.toggle('hamburger--active');
+  nav.classList.toggle('navigation--active');
+}
+
+hamburger.addEventListener('click', handleClick);
+            </script>
             
-      <h1>Szkolna Partia PTW</h1>
+        <h1>Szkolna Partia PTW</h1> <br/>
        
         
-            
-        </div>
+         </div>       
         
-  <div class="slogan"> 
+        <div class="slogan"> 
               
-       Partia Twój Wybór - Twoja Szkoła, twój głos (z naszą małą mocą)
+        Partia Twój Wybór - Twoja Szkoła, twój głos (z naszą małą mocą)
                     
-         </div>
+        </div>
         
         <div class="dlaczegomy">
         
-            Co nas wyróżnia:
+            Co nas wyróżnia: <br/>
 
 Lojalność - Nie składamy pustych obietnic, których nie dałoby się zrealizować. Głosując na nas masz pewność, że każdy, najmniejszy postulat zostanie zrealizowany.
-
-
-        
+     
         </div>
                     
               
