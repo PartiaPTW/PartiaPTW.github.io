@@ -24,17 +24,18 @@ h1 {
   font-size: 65px;
   vertical-align: top;
   text-align: center;
-  margin-left: 70px;
+  margin-top: auto;
+  margin: 0 auto;
 }
 
-/* line 29, E:/PTW/scss/style.scss */
+/* line 31, E:/PTW/scss/style.scss */
 .logo {
   float: right;
   background-color: #ffffff;
   margin-top: 7px;
 }
 
-/* line 36, E:/PTW/scss/style.scss */
+/* line 38, E:/PTW/scss/style.scss */
 .slogan {
   font-size: 40px;
   font-family: 'Poppins', sans-serif;
@@ -42,7 +43,7 @@ h1 {
   text-align: center;
 }
 
-/* line 44, E:/PTW/scss/style.scss */
+/* line 46, E:/PTW/scss/style.scss */
 #bottomline {
   font-size: 20px;
   color: fff;
@@ -52,7 +53,7 @@ h1 {
 }
 
 /* Hamburger menu */
-/* line 55, E:/PTW/scss/style.scss */
+/* line 57, E:/PTW/scss/style.scss */
 .hamburger {
   padding: 10px;
   display: inline-block;
@@ -62,17 +63,17 @@ h1 {
   margin: 0;
 }
 
-/* line 64, E:/PTW/scss/style.scss */
+/* line 66, E:/PTW/scss/style.scss */
 .hamburger, .navigation {
   transition: transform .3s .1s ease-in-out;
 }
 
-/* line 68, E:/PTW/scss/style.scss */
+/* line 70, E:/PTW/scss/style.scss */
 .hamburger--active {
   transform: translatex(250px);
 }
 
-/* line 72, E:/PTW/scss/style.scss */
+/* line 74, E:/PTW/scss/style.scss */
 .hamburger__box {
   width: 35px;
   height: 24px;
@@ -80,7 +81,7 @@ h1 {
   position: relative;
 }
 
-/* line 86, E:/PTW/scss/style.scss */
+/* line 88, E:/PTW/scss/style.scss */
 .hamburger__inner {
   width: 100%;
   height: 3px;
@@ -92,7 +93,7 @@ h1 {
   transition: background-color .1s .2s ease-in-out;
 }
 
-/* line 95, E:/PTW/scss/style.scss */
+/* line 97, E:/PTW/scss/style.scss */
 .hamburger__inner::before,
 .hamburger__inner::after {
   width: 100%;
@@ -104,32 +105,32 @@ h1 {
   transition: transform .2s .2s ease-in-out;
 }
 
-/* line 104, E:/PTW/scss/style.scss */
+/* line 106, E:/PTW/scss/style.scss */
 .hamburger__inner::before {
   top: -10px;
 }
 
-/* line 108, E:/PTW/scss/style.scss */
+/* line 110, E:/PTW/scss/style.scss */
 .hamburger__inner::after {
   top: 10px;
 }
 
-/* line 112, E:/PTW/scss/style.scss */
+/* line 114, E:/PTW/scss/style.scss */
 .hamburger--active .hamburger__inner {
   background-color: transparent;
 }
 
-/* line 116, E:/PTW/scss/style.scss */
+/* line 118, E:/PTW/scss/style.scss */
 .hamburger--active .hamburger__inner:before {
   transform: translateY(10px) rotate(45deg);
 }
 
-/* line 120, E:/PTW/scss/style.scss */
+/* line 122, E:/PTW/scss/style.scss */
 .hamburger--active .hamburger__inner:after {
   transform: translateY(-10px) rotate(-45deg);
 }
 
-/* line 124, E:/PTW/scss/style.scss */
+/* line 126, E:/PTW/scss/style.scss */
 .navigation {
   height: 100vh;
   width: 250px;
@@ -140,29 +141,30 @@ h1 {
   transform: translateX(-250px);
 }
 
-/* line 134, E:/PTW/scss/style.scss */
+/* line 136, E:/PTW/scss/style.scss */
 .navigation--active {
   transform: translateX(0px);
 }
 
-/* line 138, E:/PTW/scss/style.scss */
+/* line 140, E:/PTW/scss/style.scss */
 .navigation__list {
   margin-top: 50px;
   list-style: none;
 }
 
-/* line 143, E:/PTW/scss/style.scss */
+/* line 145, E:/PTW/scss/style.scss */
 .navigation__item {
   margin-bottom: 20px;
+  color: black;
 }
 
-/* line 146, E:/PTW/scss/style.scss */
+/* line 149, E:/PTW/scss/style.scss */
 .navigation__item a {
   text-decoration: none;
   color: black;
 }
 
-/* line 154, E:/PTW/scss/style.scss */
+/* line 157, E:/PTW/scss/style.scss */
 .container {
   width: 100%;
   position: absolute;
@@ -174,15 +176,16 @@ h1 {
   text-align: center;
 }
 
-/* line 164, E:/PTW/scss/style.scss */
+/* line 167, E:/PTW/scss/style.scss */
 .container h1 {
   text-transform: uppercase;
   font-size: 60px;
   margin: 0px;
   letter-spacing: 10px;
+  text-align: center;
 }
 
-/* line 170, E:/PTW/scss/style.scss */
+/* line 174, E:/PTW/scss/style.scss */
 .container h2 {
   margin: 0;
   font-size: 20px;
@@ -191,25 +194,24 @@ h1 {
   text-align: center;
 }
 
-/* line 177, E:/PTW/scss/style.scss */
+/* line 181, E:/PTW/scss/style.scss */
 .count {
   margin: 40px 0;
+  text-align: center;
 }
 
-/* line 181, E:/PTW/scss/style.scss */
+/* line 186, E:/PTW/scss/style.scss */
 .countd span {
-  display: inline-block;
   font-size: 26px;
   margin-top: 14px;
   text-align: center;
 }
 
-/* line 188, E:/PTW/scss/style.scss */
+/* line 192, E:/PTW/scss/style.scss */
 .countdown {
   font-family: 'Manrope', sans-serif;
-  display: inline-block;
   text-align: center;
-  margin-left: 450px;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */

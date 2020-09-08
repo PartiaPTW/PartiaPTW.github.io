@@ -23,7 +23,9 @@ h1
     font-size: 65px;
     vertical-align: top;
     text-align: center;
-    margin-left: 70px;
+    margin-top: auto;
+    margin: 0 auto;
+
 }
 
 .logo
@@ -142,6 +144,7 @@ h1
 
 .navigation__item {
   margin-bottom: 20px;
+    color: black;
   
   a {
     text-decoration: none;
@@ -166,6 +169,7 @@ h1
   font-size: 60px;
   margin: 0px;
   letter-spacing: 10px;
+    text-align: center; 
 }
 .container h2{
   margin: 0;
@@ -176,10 +180,10 @@ h1
 }
 .count{
   margin: 40px 0;
+    text-align: center; 
 }
 
 .countd span{
-  display: inline-block;
   font-size: 26px;
   margin-top: 14px;
     text-align: center;
@@ -188,7 +192,6 @@ h1
 .countdown
 {
     font-family: 'Manrope', sans-serif;
-    display: inline-block;
     text-align: center;
-    margin-left: 450px;
+    margin: 0 auto;
 }
