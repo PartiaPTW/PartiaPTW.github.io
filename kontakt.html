@@ -14,50 +14,81 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <script src="https://kit.fontawesome.com/ba063671af.js" crossorigin="anonymous"></script>
+      <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet"> 
   </head>
     <body>
         
-        <div class="headermenu">    
-        <div class="logo">    
-        
-        <a><img src="ptw.png" alt="ptwlogo" width="110px" height="110"/></a>
-        
-        </div>
-         
-            <!-- hamburger-menu !-->
-        <button class="hamburger">
-  <span class="hamburger__box">
-    <span class="hamburger__inner"></span>
-  </span>
-</button>
-<div class="navigation">
-  <ul class="navigation__list">
-      <li class="navigation__item"><a href="index.html">Strona Główna</a> </li>
-    <li class="navigation__item"><a href="onas.html">O nas</a></li>
-    <li class="navigation__item"><a href="kontakt.html">Kontakt</a></li>
- </ul>
-</div>
-                
-                
-                
-            
-            </div>
-            
-            <script type="text/javascript">
-            const hamburger = document.querySelector('.hamburger');
-const nav = document.querySelector('.navigation');
+        <div class="headermenu">
+		<div class="logo">
+			<a><img alt="ptwlogo" height="110" src="ptw.png" width="110px"></a>
+		</div>
+		<!-- hamburger-menu !-->
+		 <button class="hamburger"><span class="hamburger__box"><span class="hamburger__inner"></span></span></button>
 
-const handleClick = () => {
-  hamburger.classList.toggle('hamburger--active');
-  nav.classList.toggle('navigation--active');
-}
+		<div class="navigation">
+			<ul class="navigation__list">
+				<li class="navigation__item">
+					<a href="index.html">Strona Główna</a>
+				</li>
 
-hamburger.addEventListener('click', handleClick);
-            </script>
-            
-        <h1>Szkolna Partia PTW</h1> <br/>
-       
-        </div>
+
+				<li class="navigation__item">
+					<a href="onas.html">O nas</a>
+				</li>
+
+
+				<li class="navigation__item">
+					<a href="kontakt.html">Kontakt</a>
+				</li>
+
+                <li class="navigation__item">
+					<a href="naszepostulaty.html">Nasze Postulaty</a>
+				</li> <br><br>
+                <li class="navigation__item"><span class="clock" id="span"></span>
+				</li>
+
+
+				<li style="list-style: none; display: inline">
+					<script>
+
+
+					function doDate()
+					{
+					var str = "";
+
+					var days = new Array("Niedziela", "Poniedziałek", "Wtorek", "Środa", "Czwartek", "Piątek", "Sobota");
+					var months = new Array("Styczeń", "Luty", "Marzec", "Kwiecień", "Maj", "Czerwiec", "Lipiec", "Sierpień", "Wrzesień", "Październik", "Listopad", "Grudzień");
+
+					var now = new Date();
+
+					str += "Dziś jest: " + days[now.getDay()] + ", " + now.getDate() + " " + months[now.getMonth()] + " " + now.getFullYear() + " " + now.getHours() +":" + now.getMinutes() + ":" + now.getSeconds();
+					document.getElementById("span").innerHTML = str;
+					}
+
+					setInterval(doDate, 1000);
+					</script>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript">
+	           const hamburger = document.querySelector('.hamburger');
+	const nav = document.querySelector('.navigation');
+
+	const handleClick = () => {
+	 hamburger.classList.toggle('hamburger--active');
+	 nav.classList.toggle('navigation--active');
+	}
+
+	hamburger.addEventListener('click', handleClick);
+	</script>
+
+	<h1>Szkolna Partia PTW</h1>
+	<br>
+	<br>
+	
+	
+	<br>
         
         <!-- www.123formbuilder.com script begins here --><script type="text/javascript" defer src="//www.123formbuilder.com/embed/5627246.js" data-role="form" data-default-width="650px"></script><!-- www.123formbuilder.com script ends here -->        
         <div id="bottomline">

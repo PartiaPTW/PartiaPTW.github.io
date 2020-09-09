@@ -8,7 +8,7 @@ body {
 /* line 8, E:/PTW/scss/style.scss */
 a {
   text-decoration: none;
-  color: black;
+  color: #f5f5f5;
 }
 
 /* line 13, E:/PTW/scss/style.scss */
@@ -21,21 +21,21 @@ a:hover {
 /* line 20, E:/PTW/scss/style.scss */
 h1 {
   font-family: 'Manrope', sans-serif;
-  font-size: 65px;
-  vertical-align: top;
+  color: white;
+  font-size: 60px;
   text-align: center;
-  margin-top: auto;
-  margin: 0 auto;
+  margin-top: -65px;
+  padding: 0;
 }
 
-/* line 31, E:/PTW/scss/style.scss */
+/* line 32, E:/PTW/scss/style.scss */
 .logo {
   float: right;
   background-color: #ffffff;
   margin-top: 7px;
 }
 
-/* line 38, E:/PTW/scss/style.scss */
+/* line 39, E:/PTW/scss/style.scss */
 .slogan {
   font-size: 40px;
   font-family: 'Poppins', sans-serif;
@@ -43,7 +43,7 @@ h1 {
   text-align: center;
 }
 
-/* line 46, E:/PTW/scss/style.scss */
+/* line 47, E:/PTW/scss/style.scss */
 #bottomline {
   font-size: 20px;
   color: fff;
@@ -53,7 +53,7 @@ h1 {
 }
 
 /* Hamburger menu */
-/* line 57, E:/PTW/scss/style.scss */
+/* line 58, E:/PTW/scss/style.scss */
 .hamburger {
   padding: 10px;
   display: inline-block;
@@ -61,19 +61,20 @@ h1 {
   background-color: transparent;
   border: 0;
   margin: 0;
+  margin-top: 50px;
 }
 
-/* line 66, E:/PTW/scss/style.scss */
+/* line 68, E:/PTW/scss/style.scss */
 .hamburger, .navigation {
   transition: transform .3s .1s ease-in-out;
 }
 
-/* line 70, E:/PTW/scss/style.scss */
+/* line 72, E:/PTW/scss/style.scss */
 .hamburger--active {
   transform: translatex(250px);
 }
 
-/* line 74, E:/PTW/scss/style.scss */
+/* line 76, E:/PTW/scss/style.scss */
 .hamburger__box {
   width: 35px;
   height: 24px;
@@ -81,7 +82,7 @@ h1 {
   position: relative;
 }
 
-/* line 88, E:/PTW/scss/style.scss */
+/* line 90, E:/PTW/scss/style.scss */
 .hamburger__inner {
   width: 100%;
   height: 3px;
@@ -93,7 +94,7 @@ h1 {
   transition: background-color .1s .2s ease-in-out;
 }
 
-/* line 97, E:/PTW/scss/style.scss */
+/* line 99, E:/PTW/scss/style.scss */
 .hamburger__inner::before,
 .hamburger__inner::after {
   width: 100%;
@@ -105,32 +106,32 @@ h1 {
   transition: transform .2s .2s ease-in-out;
 }
 
-/* line 106, E:/PTW/scss/style.scss */
+/* line 108, E:/PTW/scss/style.scss */
 .hamburger__inner::before {
   top: -10px;
 }
 
-/* line 110, E:/PTW/scss/style.scss */
+/* line 112, E:/PTW/scss/style.scss */
 .hamburger__inner::after {
   top: 10px;
 }
 
-/* line 114, E:/PTW/scss/style.scss */
+/* line 116, E:/PTW/scss/style.scss */
 .hamburger--active .hamburger__inner {
   background-color: transparent;
 }
 
-/* line 118, E:/PTW/scss/style.scss */
+/* line 120, E:/PTW/scss/style.scss */
 .hamburger--active .hamburger__inner:before {
   transform: translateY(10px) rotate(45deg);
 }
 
-/* line 122, E:/PTW/scss/style.scss */
+/* line 124, E:/PTW/scss/style.scss */
 .hamburger--active .hamburger__inner:after {
   transform: translateY(-10px) rotate(-45deg);
 }
 
-/* line 126, E:/PTW/scss/style.scss */
+/* line 128, E:/PTW/scss/style.scss */
 .navigation {
   height: 100vh;
   width: 250px;
@@ -141,30 +142,30 @@ h1 {
   transform: translateX(-250px);
 }
 
-/* line 136, E:/PTW/scss/style.scss */
+/* line 138, E:/PTW/scss/style.scss */
 .navigation--active {
   transform: translateX(0px);
 }
 
-/* line 140, E:/PTW/scss/style.scss */
+/* line 142, E:/PTW/scss/style.scss */
 .navigation__list {
   margin-top: 50px;
   list-style: none;
 }
 
-/* line 145, E:/PTW/scss/style.scss */
+/* line 147, E:/PTW/scss/style.scss */
 .navigation__item {
   margin-bottom: 20px;
   color: black;
 }
 
-/* line 149, E:/PTW/scss/style.scss */
+/* line 151, E:/PTW/scss/style.scss */
 .navigation__item a {
   text-decoration: none;
   color: black;
 }
 
-/* line 157, E:/PTW/scss/style.scss */
+/* line 159, E:/PTW/scss/style.scss */
 .container {
   width: 100%;
   position: absolute;
@@ -176,7 +177,7 @@ h1 {
   text-align: center;
 }
 
-/* line 167, E:/PTW/scss/style.scss */
+/* line 169, E:/PTW/scss/style.scss */
 .container h1 {
   text-transform: uppercase;
   font-size: 60px;
@@ -185,7 +186,7 @@ h1 {
   text-align: center;
 }
 
-/* line 174, E:/PTW/scss/style.scss */
+/* line 176, E:/PTW/scss/style.scss */
 .container h2 {
   margin: 0;
   font-size: 20px;
@@ -194,24 +195,33 @@ h1 {
   text-align: center;
 }
 
-/* line 181, E:/PTW/scss/style.scss */
+/* line 183, E:/PTW/scss/style.scss */
 .count {
   margin: 40px 0;
   text-align: center;
 }
 
-/* line 186, E:/PTW/scss/style.scss */
+/* line 188, E:/PTW/scss/style.scss */
 .countd span {
   font-size: 26px;
   margin-top: 14px;
   text-align: center;
 }
 
-/* line 192, E:/PTW/scss/style.scss */
+/* line 194, E:/PTW/scss/style.scss */
 .countdown {
   font-family: 'Manrope', sans-serif;
   text-align: center;
   margin: 0 auto;
+}
+
+/* line 201, E:/PTW/scss/style.scss */
+.postulaty {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'Kumbh Sans', sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
