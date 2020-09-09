@@ -224,4 +224,13 @@ h1 {
   font-family: 'Kumbh Sans', sans-serif;
 }
 
+/* line 210, E:/PTW/scss/style.scss */
+.questions {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
 /*# sourceMappingURL=style.css.map */
