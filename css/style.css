@@ -233,4 +233,13 @@ h1 {
   font-family: 'Kumbh Sans', sans-serif;
 }
 
+/* line 218, E:/PTW/scss/style.scss */
+.frame-container {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
 /*# sourceMappingURL=style.css.map */
